@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="Agenda una cita en SHEKINAH STUDIO por WhatsApp y consulta nuestra ubicación en Ibagué."
+        name="description" />
+    <meta content="#100a16" name="theme-color" />
+    <title>Contacto | SHEKINAH STUDIO</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&amp;family=Cormorant+Garamond:wght@400;500;600;700&amp;family=DM+Sans:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="css/estilos.css" rel="stylesheet" />
+    <script defer="" src="js/script.js"></script>
+</head>
+
+<body id="arriba" data-page="contacto">
+    <a class="skip-link" href="#contacto">Saltar al contenido</a>
+    <header class="site-header" id="cabecera">
+        <nav aria-label="Navegación principal" class="nav container">
+            <a aria-label="SHEKINAH STUDIO, ir al inicio" class="brand" href="index.html"><span aria-hidden="true"
+                    class="brand-star">✧</span> SHEKINAH <span>STUDIO</span></a>
+            <button aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menú" class="menu-toggle"
+                type="button"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="menu-principal">
+                <li><a class="nav-link" href="index.html">Inicio</a></li>
+                <li><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                <li><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+                <li><a aria-current="page" class="nav-link active" href="contacto.html">Contacto</a></li>
+            </ul>
+            <a class="btn btn-outline nav-cta" href="contacto.html#contact-form">Reservar cita</a>
+        </nav>
+    </header>
+    <main>
+
+        <section aria-labelledby="contact-title" class="section contact" id="contacto">
+            <div class="container contact-grid">
+                <div class="contact-info reveal">
+                    <p class="eyebrow">CONTACTO</p>
+                    <h1 class="section-title" id="contact-title">Tu próxima idea<br />empieza <em>aquí.</em></h1>
+                    <p>¿Tienes un diseño en mente? Cuéntanos tu idea y abre directamente la solicitud en WhatsApp, con
+                        toda la información preparada.</p>
+                    <div class="contact-detail"><span aria-hidden="true" class="detail-icon">⌖</span>
+                        <div><strong>Encuéntranos</strong>
+                            <p>Barrio Calarcá · Ibagué, Tolima, Colombia</p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span aria-hidden="true" class="detail-icon">◎</span>
+                        <div><strong>Instagram oficial</strong>
+                            <p><a class="instagram-inline" href="https://www.instagram.com/shekinah.studio__/"
+                                    rel="noopener noreferrer" target="_blank">@shekinah.studio__</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-detail"><span aria-hidden="true" class="detail-icon">✧</span>
+                        <div><strong>Atención</strong>
+                            <p>Con cita previa · Consulta disponibilidad</p>
+                        </div>
+                    </div>
+                    <div aria-label="Redes y canales de contacto" class="social-group"><a class="social-pill"
+                            href="https://www.instagram.com/shekinah.studio__/" rel="noopener noreferrer"
+                            target="_blank"><span aria-hidden="true" class="social-icon">◎</span><span
+                                class="social-label">Instagram</span></a><a class="social-pill" id="contact-whatsapp"
+                            href="https://wa.me/573008647865" rel="noopener noreferrer" target="_blank"><span
+                                aria-hidden="true" class="social-icon">✆</span><span
+                                class="social-label">WhatsApp</span></a></div>
+                    <p class="contact-tip">El estudio te confirmará la disponibilidad y la cotización por WhatsApp.</p>
+                </div>
+                <noscript>
+                    <p>Para consultar o pedir una cita, usa el enlace de WhatsApp del estudio.</p>
+                </noscript>
+                <form class="contact-form reveal" id="contact-form" novalidate>
+                    <h2 class="form-header">Prepara tu solicitud</h2>
+                    <div class="form-grid">
+                        <label>Tu nombre <span aria-hidden="true">*</span>
+                            <input autocomplete="name" minlength="2" name="nombre" placeholder="¿Cómo te llamas?"
+                                required>
+                        </label>
+                        <label>Servicio <span aria-hidden="true">*</span>
+                            <select name="servicio" required>
+                                <option value="">Selecciona una opción</option>
+                                <option value="Tatuaje">Tatuaje</option>
+                                <option value="Uñas">Diseño de uñas</option>
+                                <option value="Manicura masculina">Manicura masculina</option>
+                                <option value="Impresión o escáner">Impresión o escáner</option>
+                                <option value="Otro servicio">Otro servicio</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label><b id="mensaje-etiqueta">Cuéntanos tu idea</b> <span aria-hidden="true">*</span>
+                        <textarea minlength="10" name="mensaje" placeholder="Describe lo que tienes en mente…" required
+                            rows="5"></textarea>
+                    </label>
+                    <label id="campo-fecha">Fecha deseada (opcional)<input name="fecha" type="date"></label>
+                    <p class="form-error" id="form-error" role="alert"></p>
+                    <button class="btn btn-primary form-submit" type="submit">Continuar a WhatsApp</button>
+                    <p class="form-hint">Revisa el mensaje y toca Enviar en WhatsApp para hacer llegar tu solicitud al
+                        estudio.</p>
+                </form>
+            </div>
+        </section>
+
+        <section aria-labelledby="location-title" class="location-section section" id="ubicacion">
+            <div class="container location-layout">
+                <div>
+                    <p class="eyebrow">UBICACIÓN</p>
+                    <h2 class="section-title" id="location-title">Encuentra nuestro <em>espacio.</em></h2>
+                    <p>Estamos en el barrio Calarcá de Ibagué. Toma la carrera 10A #43-73 como punto de referencia y
+                        escríbenos antes de venir para confirmar la ubicación y la disponibilidad.</p><a
+                        class="text-link"
+                        href="https://www.google.com/maps/search/?api=1&amp;query=Carrera+10A+%2343-73%2C+barrio+Calarc%C3%A1%2C+Ibagu%C3%A9%2C+Tolima%2C+Colombia"
+                        rel="noopener noreferrer" target="_blank">Abrir la referencia en Google Maps</a>
+                </div>
+                <div class="map-frame"><iframe
+                        src="https://www.google.com/maps/embed?pb=!4v1795727522084!6m8!1m7!1suvmx8VwYTFRSYfSrrBu8BQ!2m2!1d4.440420279480822!2d-75.20852124731495!3f5.198941122321912!4f-4.161303548994184!5f0.7820865974627469"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div><a class="brand" href="index.html"><span aria-hidden="true" class="brand-star">✧</span> SHEKINAH
+                        <span>STUDIO</span></a>
+                    <p>Beauty · Ink · Style<br />Ibagué, Colombia<br /><a class="instagram-inline"
+                            href="https://www.instagram.com/shekinah.studio__/" rel="noopener noreferrer"
+                            target="_blank">Instagram: @shekinah.studio__</a></p>
+                </div>
+                <p class="footer-quote">Haz de tu esencia <em>una obra de arte.</em></p><a aria-label="Volver arriba"
+                    class="back-to-top" href="#arriba">↑</a>
+            </div>
+            <div class="footer-bottom"><span>© <span id="year">2026</span> SHEKINAH STUDIO. Todos los derechos
+                    reservados.</span><span>Diseño y desarrollo web · Proyecto académico</span></div>
+        </div>
+    </footer>
+    <nav aria-label="Accesos rápidos móviles" class="mobile-dock">
+        <a aria-label="Inicio" class="dock-link" href="index.html"><span
+                aria-hidden="true">⌂</span><small>Inicio</small></a>
+        <a aria-label="Servicios" class="dock-link" href="servicios.html"><span
+                aria-hidden="true">✧</span><small>Servicios</small></a>
+        <a aria-label="Portafolio" class="dock-link" href="portafolio.html"><span
+                aria-hidden="true">▧</span><small>Galería</small></a>
+        <a aria-label="Ubicación" class="dock-link" href="contacto.html#ubicacion"><span
+                aria-hidden="true">⌖</span><small>Mapa</small></a>
+        <a aria-label="Reservas" class="dock-link active" href="contacto.html#contact-form"><span
+                aria-hidden="true">✉</span><small>Citas</small></a>
+    </nav>
+
+</body>
+
+</html>
